@@ -8,7 +8,7 @@
 /**********************************************************/
 package mathquiz;
 
-public class Demo_Question
+public class Demo_Question implements Comparable <MathQuiz_Questions>
 {
     private int answer;
     private int leftOperand;
@@ -39,4 +39,26 @@ public class Demo_Question
     {
         return answer;
     }
+    
+    @Override
+    public String toString()
+    {
+        return"";
+    }
+    public int compareTo(MathQuiz_Question obj)
+    {
+        if (this.answer < obj.answer)
+            {
+                return -1;
+            }
+        else if (this.answer > obj.answer)
+            {
+                return 1;
+            }
+         else
+            {
+                return 0;
+            }
+      }  
+   
 }
