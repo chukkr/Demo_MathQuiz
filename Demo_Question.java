@@ -2,9 +2,11 @@
 // Filename:  Demo_Question.java
 // Purpose:   Framework of question and used to create the question that is used
 //            by both student and teacher GUI (Demo Only)
-// Author:    Christopher Morley
-// Version:   1.0
+// Author:    Christopher Morley & Rik Reyes
+// Version:   1.1
 // Date:	   9-June-2020	   
+// Notes:     Added ToString() method & CompareTo() Method along with fixing the error of missing 
+//            implments Comparable <Demo_Questions>
 /**********************************************************/
 package mathquiz;
 
